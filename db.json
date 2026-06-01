@@ -1,0 +1,109 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Finir le rapport",
+      "description": "Rapport de stage",
+      "priority": 2,
+      "status": 0,
+      "categoryId": "work",
+      "createdAt": "2025-01-01T10:00:00.000",
+      "dueDate": null,
+      "userId": "1"
+    },
+    {
+      "id": "2",
+      "title": "Réviser Flutter",
+      "description": "Revoir les widgets",
+      "priority": 1,
+      "status": 1,
+      "categoryId": "school",
+      "createdAt": "2025-01-02T10:00:00.000",
+      "dueDate": null,
+      "userId": "1"
+    },
+    {
+      "id": "A_JfLVwmh2w",
+      "title": "Projet badir",
+      "description": "",
+      "priority": 1,
+      "status": 1,
+      "categoryId": "szursDd0_nw",
+      "createdAt": "2026-05-31T19:03:29.508",
+      "dueDate": "2026-05-31T00:00:00.000",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "fHOWHesQQb8",
+      "title": "projet ERP",
+      "description": "",
+      "priority": 1,
+      "status": 0,
+      "categoryId": "jZUZDJQNTRM",
+      "createdAt": "2026-05-31T20:18:13.315",
+      "dueDate": "2026-06-02T00:00:00.000",
+      "userId": "5rYwCs03h6c"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@test.com",
+      "password": "123456",
+      "createdAt": "2025-01-01T00:00:00.000"
+    },
+    {
+      "id": "5rYwCs03h6c",
+      "name": "oumniya el abaid",
+      "email": "oumniya@gmail.com",
+      "password": "LA193422",
+      "createdAt": "2026-05-30T14:39:53.733"
+    }
+  ],
+  "categories": [
+    {
+      "id": "work",
+      "name": "Travail",
+      "colorValue": 4278190335,
+      "icon": "work",
+      "userId": "1"
+    },
+    {
+      "id": "school",
+      "name": "École",
+      "colorValue": 4294940928,
+      "icon": "school",
+      "userId": "1"
+    },
+    {
+      "id": "tuhTHu0wk-8",
+      "name": "Travail",
+      "colorValue": 4280391411,
+      "icon": "work",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "jZUZDJQNTRM",
+      "name": "Personnel",
+      "colorValue": 4283215696,
+      "icon": "person",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "szursDd0_nw",
+      "name": "École",
+      "colorValue": 4294940672,
+      "icon": "school",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "jDT0FseJtlU",
+      "name": "Santé",
+      "colorValue": 4293467747,
+      "icon": "favorite",
+      "userId": "5rYwCs03h6c"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

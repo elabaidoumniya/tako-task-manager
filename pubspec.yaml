@@ -1,0 +1,49 @@
+name: task_manager
+description: Application de gestion des tâches - Mini Projet Flutter MVC
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Base de données locale
+  sqflite: ^2.3.0
+  path: ^1.9.0
+
+  # Stockage clé-valeur (session utilisateur)
+  shared_preferences: ^2.2.2
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # Gestion d'état
+  provider: ^6.1.1
+
+  # Génération d'IDs uniques
+  uuid: ^4.3.3
+
+  # Icônes supplémentaires
+  cupertino_icons: ^1.0.6
+
+  # Graphiques pour les statistiques
+  fl_chart: ^0.67.0
+
+  # Gestion des dates
+  intl: ^0.19.0
+
+  http: ^1.2.1 
+  google_fonts: ^6.3.2
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
