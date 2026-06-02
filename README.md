@@ -13,13 +13,13 @@
 
 ---
 
-## 📝 Description
+##  Description
 
 **Tako** est une application mobile de gestion de tâches développée avec **Flutter** et **Dart**, suivant une architecture **MVC** (Modèle-Vue-Contrôleur). Elle offre une interface sombre et soignée permettant de gérer les tâches du quotidien, avec synchronisation via une API REST (MockAPI.io).
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
 | Fonctionnalité | Statut |
 |---|---|
@@ -36,19 +36,23 @@
 
 ---
 
-## 📱 Captures d'écran
+##  Captures d'écran
 
-| Login | Accueil | Statistiques | Formulaire tâche|
-|:---:|:---:|:---:|:---:|
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) | ![Stats](screenshots/stats.png) | ![Tasks](screenshots/tasks.png) |
+| Landing | Connexion | Inscription |
+|---|---|---|
+| ![Landing](screenshots/landing.png) | ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
+| Accueil (Liste) | Kanban |  Statistiques (Graphiques) | Statistiques (Résumé) |
+|---|---|---|---|
+| ![Home](screenshots/home.png) | ![Kanban](screenshots/kanban.png) | ![Stats](screenshots/stats.png) | ![Stats Summary](screenshots/stats_summary.png) | 
 
-| Kanban | Profil |
-|:---:|:---:|:---:|:---:|
-| ![Kanban](screenshots/kanban.png) |  ![Profile](screenshots/profile.png) | 
+| Formulaire tâche | Détail tâche | Profil | 
+|---|---|---|
+| ![Task Form](screenshots/task_form.png) | ![Task Detail](screenshots/task_detail.png)  ![Profile](screenshots/profile.png)  | 
+
 
 ---
 
-## 🏗️ Architecture MVC
+##  Architecture MVC
 
 Tako adopte une architecture **MVC (Modèle - Vue - Contrôleur)** claire et modulaire :
 
@@ -56,12 +60,12 @@ Tako adopte une architecture **MVC (Modèle - Vue - Contrôleur)** claire et mod
 lib/
 ├── main.dart                      # Point d'entrée de l'application
 │
-├── models/                        # 📦 MODÈLES — Structures de données
+├── models/                        #  MODÈLES — Structures de données
 │   ├── task.dart                  # Modèle Tâche (titre, priorité, statut, échéance...)
 │   ├── user.dart                  # Modèle Utilisateur (nom, email, id...)
 │   └── category.dart              # Modèle Catégorie (nom, couleur)
 │
-├── views/                         # 🖥️ VUES — Interface utilisateur
+├── views/                         #  VUES — Interface utilisateur
 │   ├── screens/                   # Pages complètes
 │   │   ├── landing_screen.dart    # Écran de démarrage
 │   │   ├── login_screen.dart      # Connexion
@@ -77,19 +81,19 @@ lib/
 │       ├── task_card.dart         # Carte tâche (liste)
 │       └── filter_chips.dart      # Filtres de tâches
 │
-├── controllers/                   # 🧠 CONTRÔLEURS — Logique métier
+├── controllers/                   #  CONTRÔLEURS — Logique métier
 │   ├── auth_controller.dart       # Gestion authentification
 │   ├── task_controller.dart       # Gestion CRUD tâches & catégories
 │   └── theme_controller.dart      # Gestion thème sombre/clair
 │
-├── services/                      # 🔧 SERVICES — Couche externe
+├── services/                      #  SERVICES — Couche externe
 │   ├── api_service.dart           # Appels HTTP (MockAPI.io)
 │   └── notification_service.dart  # Notifications locales planifiées
 │
-├── routes/                        # 🧭 NAVIGATION
+├── routes/                        #  NAVIGATION
 │   └── app_router.dart            # Configuration GoRouter
 │
-└── theme/                         # 🎨 THÈME
+└── theme/                         #  THÈME
     └── app_theme.dart             # Couleurs, typographie, styles globaux
 ```
 
@@ -116,7 +120,7 @@ Vue (rebuild automatique)
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 
@@ -157,7 +161,7 @@ flutter run
 
 ---
 
-## 📦 Dépendances principales
+##  Dépendances principales
 
 | Package | Version | Rôle |
 |---|---|---|
@@ -172,7 +176,7 @@ flutter run
 
 ---
 
-## 🔗 API REST
+##  API REST
 
 L'application utilise **MockAPI.io** comme backend simulé.
 
@@ -193,13 +197,13 @@ Base URL : https://6a1e08cabcc4f20d5ca5488c.mockapi.io
 
 ---
 
-## 🔔 Notifications
+##  Notifications
 
 Le service de notifications (`NotificationService`) planifie automatiquement un rappel **1 heure avant** l'échéance de chaque tâche. Les notifications sont gérées localement via `flutter_local_notifications` et `timezone`.
 
 ---
 
-## 👥 Auteurs
+##  Auteurs
 
 Développé dans le cadre d'un projet académique — **Juin 2026**
 
@@ -208,7 +212,7 @@ Développé dans le cadre d'un projet académique — **Juin 2026**
 | El abaid Oumniya | Développement Flutter / Architecture MVC |
 
 ---
-## ⚠️ Problème rencontré avec MockAPI.io
+##  Problème rencontré avec MockAPI.io
 
 Lors du déploiement de l'API sur MockAPI.io, nous avons rencontré une limitation du **plan gratuit**.
 
