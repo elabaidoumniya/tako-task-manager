@@ -41,14 +41,14 @@
 | Landing | Connexion | Inscription |
 |---|---|---|
 | ![Landing](screenshots/landing.png) | ![Login](screenshots/login.png) | ![Register](screenshots/register.png) |
-| Accueil (Liste) | Kanban |  Statistiques (Graphiques) | Statistiques (Résumé) |
+
+| Accueil (Liste) | Kanban | Statistiques (Graphiques) | Statistiques (Résumé) |
 |---|---|---|---|
-| ![Home](screenshots/home.png) | ![Kanban](screenshots/kanban.png) | ![Stats](screenshots/stats.png) | ![Stats Summary](screenshots/stats_summary.png) | 
+| ![Home](screenshots/home.png) | ![Kanban](screenshots/kanban.png) | ![Stats](screenshots/stats.png) | ![Stats Summary](screenshots/stats_summary.png) |
 
-| Formulaire tâche | Détail tâche | Profil | 
+| Formulaire tâche | Détail tâche | Profil |
 |---|---|---|
-| ![Task Form](screenshots/tasks.png) | ![Task Detail](screenshots/task_detail.png)  ![Profile](screenshots/profile.png)  | 
-
+| ![Task Form](screenshots/task_form.png) | ![Task Detail](screenshots/task_detail.png) | ![Profile](screenshots/profile.png) |
 
 ---
 
