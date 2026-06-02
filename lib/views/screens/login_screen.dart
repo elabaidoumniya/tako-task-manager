@@ -196,14 +196,7 @@ class _LoginScreenState extends State<LoginScreen>
                                               fontSize: 13,
                                               fontWeight: FontWeight.w700,
                                               color: AppTheme.text)),
-                                      GestureDetector(
-                                        onTap: () {},
-                                        child: const Text('Oublié ?',
-                                            style: TextStyle(
-                                                fontSize: 12,
-                                                fontWeight: FontWeight.w600,
-                                                color: Color(0xFF9B8FF8))),
-                                      ),
+                                      
                                     ],
                                   ),
                                   const SizedBox(height: 8),

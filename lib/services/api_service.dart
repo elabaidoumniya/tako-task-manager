@@ -9,12 +9,12 @@ import '../models/category.dart';
 class ApiService {
   // ============================================================
   // SIMULATION 2 : API LOCALE (json-server)
-  // static const String _baseUrl = 'http://localhost:3000';
+  static const String _baseUrl = 'http://localhost:3000';
   // ============================================================
   // SIMULATION 3 : API EXTERNE (MockAPI.io)
   // Remplacez par votre URL MockAPI.io
   // ============================================================
-  static const String _baseUrl = 'https://6a1e08cabcc4f20d5ca5488c.mockapi.io';
+  //static const String _baseUrl = 'https://6a1e08cabcc4f20d5ca5488c.mockapi.io';
 
   // ── Headers ──────────────────────────────────────────────────────────────
   static const Map<String, String> _jsonHeaders = {

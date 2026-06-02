@@ -38,10 +38,43 @@
       "title": "projet ERP",
       "description": "",
       "priority": 1,
-      "status": 0,
+      "status": 2,
       "categoryId": "jZUZDJQNTRM",
       "createdAt": "2026-05-31T20:18:13.315",
       "dueDate": "2026-06-02T00:00:00.000",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "-6TWfWTfp08",
+      "title": "Implémenter l'authentification",
+      "description": "Ajouter login et register avec API",
+      "priority": 2,
+      "status": 0,
+      "categoryId": "szursDd0_nw",
+      "createdAt": "2026-06-02T19:00:10.414",
+      "dueDate": "2026-06-04T00:00:00.000",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "8-GFoTO7glg",
+      "title": "Finaliser la maquette Figma",
+      "description": "Terminer les écrans mobiles de l'application",
+      "priority": 1,
+      "status": 1,
+      "categoryId": "tuhTHu0wk-8",
+      "createdAt": "2026-06-02T19:03:31.619",
+      "dueDate": "2026-06-07T00:00:00.000",
+      "userId": "5rYwCs03h6c"
+    },
+    {
+      "id": "xuBvQBeODWw",
+      "title": "Ajouter les tests unitaires",
+      "description": "",
+      "priority": 1,
+      "status": 0,
+      "categoryId": "tuhTHu0wk-8",
+      "createdAt": "2026-06-02T19:04:18.199",
+      "dueDate": "2026-06-10T00:00:00.000",
       "userId": "5rYwCs03h6c"
     }
   ],
