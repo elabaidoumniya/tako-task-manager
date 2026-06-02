@@ -11,6 +11,13 @@
 
 </div>
 
+##  Auteurs
+
+Développé dans le cadre d'un projet académique — **Juin 2026**
+
+| Membre | Rôle |
+|---|---|
+| El abaid Oumniya | Développement Flutter / Architecture MVC |
 ---
 
 ##  Description
@@ -203,13 +210,7 @@ Le service de notifications (`NotificationService`) planifie automatiquement un 
 
 ---
 
-##  Auteurs
 
-Développé dans le cadre d'un projet académique — **Juin 2026**
-
-| Membre | Rôle |
-|---|---|
-| El abaid Oumniya | Développement Flutter / Architecture MVC |
 
 ---
 ##  Problème rencontré avec MockAPI.io
