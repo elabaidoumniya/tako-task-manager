@@ -47,7 +47,7 @@
 
 | Formulaire tâche | Détail tâche | Profil | 
 |---|---|---|
-| ![Task Form](screenshots/task_form.png) | ![Task Detail](screenshots/task_detail.png)  ![Profile](screenshots/profile.png)  | 
+| ![Task Form](screenshots/tasks.png) | ![Task Detail](screenshots/task_detail.png)  ![Profile](screenshots/profile.png)  | 
 
 
 ---
